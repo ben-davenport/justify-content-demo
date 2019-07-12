@@ -9,12 +9,49 @@ html{
 
 body{
     height:100vh;
+    background-color: #110040;
+    color: #3e8fe6;
 }
 .flex-start {
     border: 10px solid #3e8fd6;
+    background-color:#220080;
+    border-radius: 15px;
     height: 70%;
     width: 98%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+.end{
+    justify-content: flex-end;
+}
+.center{
+    justify-content: center;
+}
+
+.btwn{
+    justify-content: space-between;
+}
+
+.arnd{
+    justify-content: space-around;
+}
+
+.even{
+    justify-content: space-evenly;
+}
+
 .flex-start-mode{
     text-align: center;
+}
+.flex-start-box{
+    border: 8px solid #110040;
+    background-color: #459fff;
+    border-radius: 15px;
+    height: 68%;
+    width:27%;
+}
+
+.hidden{
+    display: none;
 }
